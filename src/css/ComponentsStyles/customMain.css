@@ -1,0 +1,25 @@
+.test h1{
+    font-size: 16px;
+}
+
+.myRow{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.col{
+    background-color: red;
+}
+
+textarea { 
+    min-height: 50vh;
+ }
+
+.outputDiv{
+    width: 100%;
+    min-height: 50vh;
+    border: 1px solid #D9D9D9;
+    border-radius: 1%;
+    margin-top: 8px;
+}
+
