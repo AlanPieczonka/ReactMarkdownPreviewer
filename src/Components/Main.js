@@ -4,6 +4,7 @@ import customMainCSS from './../css/ComponentsStyles/customMain.css';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap';
 
 var markdown = require( "markdown" ).markdown;
+const InnerHTML = require('dangerously-set-inner-html')
 
 
 class Main extends Component {
@@ -34,7 +35,7 @@ class Main extends Component {
               <span>Output</span>
               <div className="outputDiv">
                   <div>
-                    {this.state.markdown}
+                  <InnerHTML html={this.state.markdown} />
                   </div>
               </div>
           </Col>
