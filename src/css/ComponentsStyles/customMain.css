@@ -23,8 +23,21 @@ textarea {
     margin-top: 8px;
 }
 
-.main__h4{
-    display: block;
+.main__h3{
     font-weight: 300;
     margin: 20px auto 25px auto;
+}
+
+.main__button{
+    cursor: pointer;
+    margin: 10px auto 0 auto;
+}
+
+@media screen and (max-width:992px) {
+    .main__h3{
+        margin:5px auto;
+    }
+    .main__button{
+        margin: 10px auto 5px auto !important;
+    }
 }
