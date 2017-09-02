@@ -1,5 +1,5 @@
 # MarkdownPreviewer
-## Made with React
+## Made with React and Bootstrap 4
 ### One of the FreeCodeCamp's React Projects
 ### To run Previewer:
 	git clone https://github.com/AlanPieczonka/ReactMarkdownPreviewer.git
