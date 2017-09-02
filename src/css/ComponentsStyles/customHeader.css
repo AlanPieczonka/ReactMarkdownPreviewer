@@ -15,6 +15,10 @@ header h2{
     margin: 2px auto 0 auto;
 }
 
+.span--react{
+    color: #61DAFB;
+}
+
 @media screen and (max-width:400px) {
     header h1{
         font-size: 30px;
