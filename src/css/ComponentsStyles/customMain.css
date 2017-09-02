@@ -26,11 +26,12 @@ textarea {
 .main__h3{
     font-weight: 300;
     margin: 20px auto 25px auto;
+    padding-right: 25px;
 }
 
 .main__button{
     cursor: pointer;
-    margin: 10px auto 0 auto;
+    margin: 15px auto 0 auto;
 }
 
 @media screen and (max-width:992px) {
