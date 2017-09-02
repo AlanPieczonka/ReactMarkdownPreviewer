@@ -1,31 +1,37 @@
-.header__h1{
-    font-size: 40px;
-    font-weight: 300;
+.header__h1 {
+  font-size: 40px;
+  font-weight: 300;
 }
 
-.header__h2{
-    font-size: 30px;
-    font-weight: 300;
+.header__h2 {
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .img--reactlogo {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 2px auto 0 auto;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 2px auto 0 auto;
 }
 
-.span--react{
-    color: #61DAFB;
+.span--react {
+  color: #61dafb;
 }
 
-@media screen and (max-width:400px) {
-    .header__h1{
-        font-size: 30px;
-        margin-top: 15px;
-    }
-    
-    .header__h2{
-        font-size: 25px;
-    } 
+@media screen and (max-width: 400px) {
+  .header__h1 {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  .header__h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header__h1 {
+    margin-top: 15px;
+  }
 }

@@ -10,11 +10,7 @@ export const Header = () => {
       <h2 className="header__h2 text-center">
         Made with <span className="span span--react">React</span>
       </h2>
-      <img
-        src={reactLogo}
-        className="img--reactlogo"
-        alt="React Icon"
-      />
+      <img src={reactLogo} className="img--reactlogo" alt="React Icon" />
     </header>
   );
 };
