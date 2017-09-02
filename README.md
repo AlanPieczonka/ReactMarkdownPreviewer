@@ -1,4 +1,4 @@
-# ReactMarkdownPreviewer
+# MarkdownPreviewer
 ## Made with React
 ### One of the FreeCodeCamp's React Projects
 ### To run Previewer:
