@@ -10,6 +10,16 @@ describe('Header Component', () => {
     shallow(<Header />);
   });
 
+  it('renders h1 ', () => {
+    const wrapper = shallow(<Header/>);
+    expect(wrapper.find('h1')).to.have.length(1);;
+  });
+
+  it(' h1s text is Markdown Previewer', () => {
+    const wrapper = shallow(<Header/>);
+    expect(wrapper.find('h1').text()).to.equal('Markdown Previewer');
+  });
+
   it('renders React logo', () => {
     const wrapper = shallow(<Header />);
     expect(wrapper.find('.img--technologylogo--reactlogo')).to.have.length(1);
@@ -18,16 +28,6 @@ describe('Header Component', () => {
   it('renders Bootstrap logo', () => {
     const wrapper = shallow(<Header />);
     expect(wrapper.find('.img--technologylogo--bootstraplogo')).to.have.length(1);
-  });
-
-  it('renders H1 ', () => {
-    const wrapper = shallow(<Header/>);
-    expect(wrapper.find('h1'));
-  });
-
-  it(' H1s text is Markdown Previewer', () => {
-    const wrapper = shallow(<Header/>);
-    expect(wrapper.find('h1').text()).to.equal('Markdown Previewer');
   });
 
 });
