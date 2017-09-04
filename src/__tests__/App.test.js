@@ -11,6 +11,10 @@ import { Footer } from './../Components/Footer';
 
 describe('App Component', () => {
 
+    it('renders without crashing', () => {
+        shallow(<App />);
+    });
+
     it('renders 3 children component', () => {
         const wrapper = shallow(<App />);
         expect(wrapper.children()).to.have.length(3);
