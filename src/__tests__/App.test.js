@@ -13,7 +13,22 @@ describe('App Component', () => {
 
     it('renders 3 children component', () => {
         const wrapper = shallow(<App />);
-        expect(wrapper.children()).to.have.length(2);
+        expect(wrapper.children()).to.have.length(3);
+    });
+
+    it('renders Header component', () => {
+        const wrapper = shallow(<App />);
+        expect(wrapper.find(Header)).to.have.length(1);
+    });
+
+    it('renders Main component', () => {
+        const wrapper = shallow(<App />);
+        expect(wrapper.find(Main)).to.have.length(1);     
+    });
+
+    it('renders Footer component', () => {
+        const wrapper = shallow(<App />);
+        expect(wrapper.find(Footer)).to.have.length(1);     
     });
 
 });
