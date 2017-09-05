@@ -5,7 +5,6 @@ import { shallow } from 'enzyme';
 
 import { Header } from './../Components/Header';
 
-//Simple and basic tests, still don't have time to figure out how to test diffrent parts of logic
 
 describe('Header Component', () => {
   it('renders without crashing', () => {

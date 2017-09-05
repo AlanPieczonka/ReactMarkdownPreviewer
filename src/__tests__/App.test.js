@@ -8,7 +8,6 @@ import { Header } from './../Components/Header';
 import Main from './../Components/Main';
 import { Footer } from './../Components/Footer';
 
-//Simple and basic tests, I still don't have time to figure out how to test diffrent parts of logic
 
 describe('App Component', () => {
   it('renders without crashing', () => {

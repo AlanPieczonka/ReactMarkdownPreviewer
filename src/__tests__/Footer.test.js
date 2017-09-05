@@ -5,7 +5,6 @@ import { mount, render, shallow } from 'enzyme';
 
 import { Footer } from './../Components/Footer';
 
-//Simple and basic tests, still don't have time to figure out how to test diffrent parts of logic
 
 describe('Footer Component', () => {
   it('renders without crashing', () => {
