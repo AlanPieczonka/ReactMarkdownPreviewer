@@ -74,7 +74,7 @@ class Main extends Component {
         <Row>
           <Button
             color="success"
-            className="main__button"
+            className="main__button main__button--copytoclip"
             onClick={this.copyTextToClipboard}
           >
             Copy!
@@ -83,7 +83,7 @@ class Main extends Component {
         <Row>
           <Button
             color="warning"
-            className="main__button"
+            className="main__button main__button--clearArea"
             onClick={this.clearArea}
           >
             Clear!
