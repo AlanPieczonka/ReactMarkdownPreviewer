@@ -7,3 +7,5 @@
 	cd ReactMarkdownPreviewer
 	npm install
 	npm start 
+### To run tests: 
+	npm test test.js
