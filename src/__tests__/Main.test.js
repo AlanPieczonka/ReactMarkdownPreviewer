@@ -5,6 +5,8 @@ import { mount, render, shallow } from 'enzyme';
 
 import Main from './../Components/Main';
 
+//Simple and basic tests, still don't have time to figure out how to test diffrent parts of logic
+
 describe('Main Component', () => {
     it('renders without crashing', () => {
         const wrapper = shallow(<Main />);
